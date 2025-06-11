@@ -7,7 +7,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
         phone: f.phone.value,
         message: f.message.value
     };
-    fetch('https://formspree.io/f/YOUR_FORM_ID', {
+    fetch('https://formspree.io/f/mdkzggod', {
         method: 'POST',
         headers: {'Accept': 'application/json'},
         body: JSON.stringify(data)
